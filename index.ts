@@ -8,7 +8,7 @@ app.get('/', (req: Request , res: Response) => {
 });
 
 app.get('/api', (req: Request , res: Response) => {
-    res.send('Test endpoint');
+    res.send('Test endpoint, with concurently watch-running server!');
 });
 
 app.listen(port, () => {
